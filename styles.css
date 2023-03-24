@@ -7,9 +7,119 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  /* text-align: center; */
 }
 
 body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-family: "Abril Fatface", cursive;
+  width: 300px;
+  margin: 0 60px;
+}
+h2 {
+  font-family: "Abril Fatface", cursive;
+}
+h3 {
+  font-weight: 900;
+}
+p {
+  color: #add981;
+}
+
+header {
+  background: url(./images/bg.jpg) center/cover;
+  color: #ffffffdf;
+}
+
+button {
+  padding: 15px 60px;
+
+  border-radius: 15px;
+  background: transparent;
+  color: #ffffffdf;
+  border: hidden;
+  cursor: pointer;
+  font: 700 0.75rem;
+  display: inline-block;
+  transition: 2s;
+  font-weight: 600;
+}
+
+button:hover {
+  color: rgb(255, 214, 127);
+  transition: 1s;
+}
+nav {
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  font-weight: 900;
+  width: 50%;
+}
+nav img {
+  padding: 0 30px;
+  width: 200px;
+  margin: 20px 0;
+}
+button,
+i {
+  margin: 5px;
+}
+
+.magasin-service {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto;
+  text-align: center;
+  font-weight: bold;
+}
+.magasin-service-container {
+  width: 136px;
+}
+.magasin-service-container li {
+  text-align: center;
+}
+.magasin-service-container i {
+  padding: 20px 0;
+  color: #add981;
+  font-size: 2.5rem;
+}
+.magasin-service-container p {
+  color: black;
+  font-size: 0.8rem;
+}
+.section-2 h2 {
+  margin: 30px 60px;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.mventes-container {
+  /* display: grid;
+  grid-template-columns: 25% 25% 25% 25%; */
+  display: flex;
+  padding: 0 60px;
+}
+.list-mventes-container {
+  background: #ffffffdf;
+}
+.list-mventes-container > .mvc-img {
+  position: relative;
+}
+.mvc-img img {
+  object-fit: cover;
+  width: 100%;
+}
+.list-mventes-container h3 {
+  padding: 15px;
 }
