@@ -38,7 +38,6 @@ header {
 
 button {
   padding: 15px 60px;
-
   border-radius: 15px;
   background: transparent;
   color: #ffffffdf;
@@ -112,9 +111,9 @@ i {
 }
 .list-mventes-container {
   background: #ffffffdf;
+  position: relative;
 }
 .list-mventes-container > .mvc-img {
-  position: relative;
 }
 .mvc-img img {
   object-fit: cover;
@@ -122,4 +121,38 @@ i {
 }
 .list-mventes-container h3 {
   padding: 15px;
+  font-size: 1.1rem;
+}
+.list-mventes-container button {
+  background: #add981;
+  width: 110px;
+  margin: 0 35px;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.list-mventes-container p {
+  padding: 0 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.plantes h2 {
+  margin: 30px 60px;
+  font-size: 2.5rem;
+}
+.plantes-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1090px;
+}
+.plante-container-left {
+  width: 100%;
+}
+
+.plante-container-right {
+  display: block;
+  width: 20%;
+}
+.plante {
 }
