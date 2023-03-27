@@ -137,6 +137,7 @@ i {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
 .plantes h2 {
   margin: 30px 60px;
   font-size: 2.5rem;
@@ -144,15 +145,51 @@ i {
 .plantes-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  max-width: 1090px;
 }
 .plante-container-left {
+  background: url(./images/nos_plantes/1.jpg) center/cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  /* padding: 0 20px 0 60px; */
+}
+.plant-container {
+  position: absolute;
+  background: #ffffffdf;
+  bottom: 0;
   width: 100%;
 }
+.plant-container button {
+  background: #add981;
+  padding: 10px;
+}
+/* .plante-container-left h3,
+p,
+button {
+  position: absolute;
+  bottom: 0;
+} */
+/* .plante-container-left img {
+  width: 100%;
+} */
 
 .plante-container-right {
-  display: block;
-  width: 20%;
+  position: relative;
+  padding: 0 60px 0 20px;
+}
+.container-right-top {
+  background: url(./images/nos_plantes/2.jpg) center/cover;
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.container-right-bottom {
+  background: url(./images/nos_plantes/3.jpg) center/cover;
+  height: 50%;
+}
+
+/* .plante-container-right img {
+  width: 100%;
 }
 .plante {
-}
+} */
