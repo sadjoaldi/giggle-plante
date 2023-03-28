@@ -7,9 +7,67 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  /* text-align: center; */
+  text-decoration: none;
+  text-align: center;
+}
+body {
+  height: 100vh;
+  font-family: "Monserrat", sans-serif;
+}
+header {
+  background: url(./images/bg.jpg) center/cover;
+  height: 400px;
+  color: #fff;
+  position: relative;
+}
+nav {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  padding: 15px 0;
+}
+nav img {
+  width: 150px;
+  margin: 0 25px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.7rem;
 }
 
+h1 {
+  width: 400px;
+  text-align: left;
+  margin: 15px 40px;
+  padding: 0 15px;
+  font-size: 2.7rem;
+  font-family: "Abril Fatface", sans-serif;
+}
+a,
+a:visited {
+  color: #fff;
+}
+.button {
+  border: 1px solid bisque;
+  border-radius: 25px;
+  padding: 5px 15px;
+  background: #add981;
+}
+header .button {
+  background: transparent;
+  border: hidden;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-size: 0.6rem;
+}
+.button,
+i {
+  margin: 0 5px;
+}
+/* 
 body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
@@ -35,17 +93,21 @@ header {
   background: url(./images/bg.jpg) center/cover;
   color: #ffffffdf;
 }
-
-button {
-  padding: 15px 60px;
-  border-radius: 15px;
+a,
+a:visited {
+  color: #fff;
+}
+.button {
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  border-radius: 30px;
   background: transparent;
-  color: #ffffffdf;
-  border: hidden;
+ 
+  background-color: #add981;
   cursor: pointer;
   font: 700 0.75rem;
   display: inline-block;
-  transition: 2s;
+  transition: 1s;
   font-weight: 600;
 }
 
@@ -104,10 +166,11 @@ i {
 }
 
 .mventes-container {
-  /* display: grid;
-  grid-template-columns: 25% 25% 25% 25%; */
   display: flex;
   padding: 0 60px;
+}
+.list-mventes-container {
+  background: url(./images/nos_meilleures_ventes/1.jpg) center/cover;
 }
 .list-mventes-container {
   background: #ffffffdf;
@@ -151,7 +214,6 @@ i {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
-  /* padding: 0 20px 0 60px; */
 }
 .plant-container {
   position: absolute;
@@ -163,15 +225,6 @@ i {
   background: #add981;
   padding: 10px;
 }
-/* .plante-container-left h3,
-p,
-button {
-  position: absolute;
-  bottom: 0;
-} */
-/* .plante-container-left img {
-  width: 100%;
-} */
 
 .plante-container-right {
   position: relative;
@@ -186,10 +239,4 @@ button {
 .container-right-bottom {
   background: url(./images/nos_plantes/3.jpg) center/cover;
   height: 50%;
-}
-
-/* .plante-container-right img {
-  width: 100%;
-}
-.plante {
 } */
