@@ -49,6 +49,11 @@ a,
 a:visited {
   color: #fff;
 }
+
+h3,
+p {
+  font-size: 0.8rem;
+}
 .button {
   border: 1px solid bisque;
   border-radius: 25px;
@@ -67,6 +72,147 @@ header .button {
 i {
   margin: 0 5px;
 }
+
+.services {
+  height: 170px;
+}
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.serv-container {
+  position: relative;
+}
+.container-element {
+  align-items: center;
+}
+.container-element a {
+  color: #add981;
+  font-size: 1.8rem;
+}
+.container-element p {
+  width: 120px;
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.ventes {
+  height: px;
+}
+.ventes h2 {
+  width: 325px;
+  letter-spacing: 2px;
+  margin: 0 40px;
+  font-size: 1.9rem;
+  font-family: "Abril Fatface", sans-serif;
+}
+.mv-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 15px 40px;
+  text-align: left;
+  height: 450px;
+  position: relative;
+}
+.container-prix1 {
+  background: url(./images/nos_meilleures_ventes/1.jpg) center/cover;
+}
+/* revoir la partie de la mise en forme avec une img en bg et des elements en pas */
+.one {
+  position: absolute;
+  bottom: 0;
+
+  background: #ffffffdf;
+}
+.container-prix2 {
+  background: url(./images/nos_meilleures_ventes/2.jpg) center/cover;
+  /* position: relative; */
+}
+.container-prix3 {
+  background: url(./images/nos_meilleures_ventes/3.jpg) center/cover;
+}
+.container-prix4 {
+  background: url(./images/nos_meilleures_ventes/4.jpg) center/cover;
+}
+
+.mv-container,
+div {
+  background: #ffffffdf;
+  position: ;
+}
+
+.plantes {
+  display: block;
+}
+.plante1 {
+  margin: auto 40px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 400px;
+  padding: 20px 0;
+}
+.plante-container1 {
+}
+.plantes2-2 {
+  display: grid;
+}
+.plante-container1 {
+  background: url(./images/nos_plantes/1.jpg) center/cover;
+}
+.plante-container2 {
+  background: url(./images/nos_plantes/2.jpg) center/cover;
+}
+.plante-container3 {
+  background: url(./images/nos_plantes/3.jpg) center/cover;
+}
+
+.plante2 {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  margin: auto 40px;
+}
+.plante-container4 {
+  background: url(./images/nos_plantes/4.jpg) center/cover;
+  width: 90%;
+}
+.plante-container5 {
+  background: url(./images/nos_plantes/5.jpg) center/cover;
+  width: 90%;
+}
+.plante-container6 {
+  background: url(./images/nos_plantes/6.jpg) center/cover;
+}
+
+footer {
+  height: 100px;
+  position: relative;
+}
+footer p {
+  padding: 40px 0;
+  font-size: 0.5rem;
+}
+.copyright {
+  position: absolute;
+  left: 40px;
+}
+.CGV {
+  position: absolute;
+  right: 40px;
+}
+/* .container-prix1 > div {
+  text-align: center;
+  background: #ffffffdf;
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+} */
+/* .img2-banner {
+  background: url(./images/nos_meilleures_ventes/2.jpg) center/cover;
+  height: 100%;
+} */
 /* 
 body {
   height: 100vh;
@@ -239,4 +385,4 @@ i {
 .container-right-bottom {
   background: url(./images/nos_plantes/3.jpg) center/cover;
   height: 50%;
-} */
+} */ ;
